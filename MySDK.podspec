@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
     s.source            = { :git => 'https://github.com/Vinclai/MySDK.git', :tag => '1.0.0' }
 
     s.ios.deployment_target = '8.0'
-    s.ios.vendored_frameworks = 'MySDK.zip'
+    s.ios.vendored_frameworks = 'MySDK.framework'
 end  
