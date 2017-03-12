@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/Vinclai/MySDK/raw/master/MySDK.zip' }
     s.ios.deployment_target = '8.0'
-    s.ios.vendored_frameworks = 'MySDK.framework'
+    s.ios.vendored_frameworks = 'MySDK/MySDK.framework'
 end
