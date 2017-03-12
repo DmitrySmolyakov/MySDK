@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/Vinclai/MySDK.git', :tag => '1.0.0' }
-
+    s.source            = { :http => 'https://github.com/Vinclai/MySDK/raw/master/MySDK.zip' }
     s.ios.deployment_target = '8.0'
     s.ios.vendored_frameworks = 'MySDK.framework'
-end  
+end
